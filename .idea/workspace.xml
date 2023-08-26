@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5248fecb-a646-491c-985a-d5d887f33d55" name="Changes" comment="" />
+    <list default="true" id="5248fecb-a646-491c-985a-d5d887f33d55" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desafioPOO/Musica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desafioPOO/Musica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desafioPOO/ReprodutorMusical.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desafioPOO/ReprodutorMusical.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693061285488</updated>
-      <workItem from="1693061286628" duration="1842000" />
+      <workItem from="1693061286628" duration="3723000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1693066488071</created>

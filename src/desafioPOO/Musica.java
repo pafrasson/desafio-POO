@@ -6,6 +6,8 @@ public class Musica {
 
     private String duracao;
 
+    private boolean musicaTocando = false;
+
     @Override
     public String toString() {
         return "Musica{" +
@@ -43,5 +45,13 @@ public class Musica {
 
     public void setDuracao(final String duracao) {
         this.duracao = duracao;
+    }
+
+    public boolean isMusicaTocando() {
+        return musicaTocando;
+    }
+
+    public void setMusicaTocando(final boolean musicaTocando) {
+        this.musicaTocando = musicaTocando;
     }
 }
