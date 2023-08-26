@@ -13,11 +13,12 @@ public class ReprodutorMusical {
     public void adicionarMusica(String nome, String artista, String duracao) {
         musicaSet.add(new Musica(nome, artista, duracao));
     }
+
     public void removerMusicaPorNome(String nome) {
         Musica musicaParaRemover = null;
 
-        for(Musica c : musicaSet){
-            if(c.getNome() == nome){
+        for (Musica c : musicaSet) {
+            if (c.getNome() == nome) {
                 musicaParaRemover = c;
                 break;
             }
@@ -25,7 +26,17 @@ public class ReprodutorMusical {
         musicaSet.remove(musicaParaRemover);
     }
 
-    public void exibirMusicas(){
+    public Set<Musica> pesquisarPorNome(String nome) {
+        Set<Musica> musicaPorNome = new HashSet<>();
+        for (Musica m : musicaSet) {
+            if (m.getNome().startsWith(nome)) {
+                musicaPorNome.add(m);
+            }
+        }
+        return musicaPorNome;
+    }
+
+    public void exibirMusicas() {
         System.out.println(musicaSet);
     }
 }
