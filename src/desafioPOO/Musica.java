@@ -17,6 +17,13 @@ public class Musica {
                 '}';
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Musica musica)) return false;
+        return getNome() == musica.getNome();
+    }
+
     public Musica(final String nome, final String artista, final String duracao) {
         this.nome = nome;
         this.artista = artista;
