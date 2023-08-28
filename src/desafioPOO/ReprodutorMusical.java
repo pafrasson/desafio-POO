@@ -39,4 +39,14 @@ public class ReprodutorMusical {
     public void exibirMusicas() {
         System.out.println(musicaSet);
     }
+
+    public void tocarMusica(Musica musica) {
+        musica.setMusicaTocando(true);
+        System.out.println("Tocando música.");
+    }
+
+    public void pararMusica(Musica musica) {
+        musica.setMusicaTocando(false);
+        System.out.println("Música parada.");
+    }
 }
