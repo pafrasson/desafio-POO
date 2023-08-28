@@ -1,10 +1,14 @@
 package desafioPOO;
 
+import java.net.ContentHandler;
 import java.util.HashSet;
+import java.util.Scanner;
 import java.util.Set;
 
 public class AparelhoTelefonico {
+    Scanner scanner = new Scanner(System.in);
     private Set<Contato> contatoSet;
+
 
     public void adicionarContato(String nome, int telefone) {
         contatoSet.add(new Contato(nome, telefone));
@@ -25,7 +29,12 @@ public class AparelhoTelefonico {
         return contatosPorTelefone;
     }
 
-    public void atenderContato(Contato contato){
-
+    public void atenderContato(Contato contato) {
+        System.out.println("Atendendo contato: " + contato);
     }
+
+    public void iniciarCorreioVoz() {
+        System.out.println("Iniciando correio");
+    }
+
 }

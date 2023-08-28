@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5248fecb-a646-491c-985a-d5d887f33d55" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/desafioPOO/AparelhoTelefonico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desafioPOO/Contato.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desafioPOO/NavegadorInternet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desafioPOO/PaginaInternet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desafioPOO/AparelhoTelefonico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desafioPOO/AparelhoTelefonico.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/desafioPOO/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desafioPOO/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/desafioPOO/ReprodutorMusical.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desafioPOO/ReprodutorMusical.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +74,8 @@
       <option name="presentableId" value="Default" />
       <updated>1693061285488</updated>
       <workItem from="1693061286628" duration="5360000" />
-      <workItem from="1693187754277" duration="1670000" />
+      <workItem from="1693187754277" duration="1754000" />
+      <workItem from="1693196972847" duration="1214000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1693066488071</created>
@@ -105,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693076137454</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="criado pesquisa de musicas">
+      <created>1693189493414</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1693189493414</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

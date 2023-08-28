@@ -1,10 +1,13 @@
 package desafioPOO;
 
 import java.util.Set;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
         ReprodutorMusical reprodutor = new ReprodutorMusical();
+        AparelhoTelefonico aparelhoTelefonico = new AparelhoTelefonico();
 
         reprodutor.adicionarMusica("Música 1", "Artista 1", "3:45");
         reprodutor.adicionarMusica("Música 2", "Artista 2", "4:20");
